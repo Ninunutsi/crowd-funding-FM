@@ -339,6 +339,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20% 0;
 }
 
 .cancel-h1{
@@ -390,7 +391,7 @@ main{
 }
 
 .radio{
-    margin-top: 15px;
+    margin-top: 11px;
 }
 
 .radio::after{
@@ -427,7 +428,7 @@ main{
     align-items: flex-start;
     border: 1px solid #e7e7e7;
     border-radius: 15px;
-    padding: 15px;
+    padding: 20px;
     margin-top: 2vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 25px 0px;
 }
@@ -443,6 +444,7 @@ main{
 .blur-headings{
     display: flex;
     gap: 10px;
+    margin-bottom: 10px;
     align-items: center;
 }
 
@@ -456,6 +458,10 @@ main{
 
 .hidden{
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    display: none;
 }
 
 .hr-line{
@@ -477,8 +483,14 @@ main{
 
 .enter-price{
     border: 1px solid #888888;
-    border-radius: 15px;
-    padding: 10px 21px;
+    border-radius: 27px;
+    padding: 15px 25px;
+    font-size: 15px;
+    color: #888888;
+}
+
+::placeholder{
+    font-size: 16px;
 }
 
 .input-dollar{
@@ -489,6 +501,21 @@ main{
     position: absolute;
     left: 10px;
     color: #888888;
-    top: 9px;
-    font-size: 14px;
+    top: 15px;
+    font-size: 16px;
+}
+
+.blur-details{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.blur-num{
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.cancel-h1:hover{
+    color: #888888;
 }
